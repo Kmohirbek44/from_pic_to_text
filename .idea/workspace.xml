@@ -10,7 +10,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbde190d-acd7-472e-880b-738849e4a87b" name="Default Changelist" comment="" />
+    <list default="true" id="dbde190d-acd7-472e-880b-738849e4a87b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/keybord/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keybord/default.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/file.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/photo.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/photo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pictranslate/test.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pictranslate/test.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,6 +54,21 @@
               </option>
               <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/EasyOCR" />
             </RecentBranchesForRepo>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1651589067" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1651589066" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
           </list>
         </option>
       </RecentBranches>
@@ -57,10 +83,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Kamoliddin" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Kamoliddin\handlers" />
       <recent name="D:\Kamoliddin\pictranslate" />
@@ -212,30 +242,30 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="444" y="186" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1651571932592" />
-    <state x="413" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1651573043282">
+    <state x="413" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1652210671649">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="413" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768@0.0.1366.768" timestamp="1651573043282" />
+    <state x="413" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768@0.0.1366.768" timestamp="1652210671649" />
     <state x="462" y="139" key="FileChooserDialogImpl" timestamp="1651435659804">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="462" y="139" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1651435659804" />
-    <state width="1345" height="192" key="GridCell.Tab.0.bottom" timestamp="1651588873477">
+    <state width="1345" height="192" key="GridCell.Tab.0.bottom" timestamp="1652212388443">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1651588873477" />
-    <state width="1345" height="192" key="GridCell.Tab.0.center" timestamp="1651588873477">
+    <state width="1345" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1652212388443" />
+    <state width="1345" height="192" key="GridCell.Tab.0.center" timestamp="1652212388443">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1651588873477" />
-    <state width="1345" height="192" key="GridCell.Tab.0.left" timestamp="1651588873477">
+    <state width="1345" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1652212388443" />
+    <state width="1345" height="192" key="GridCell.Tab.0.left" timestamp="1652212388442">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1651588873477" />
-    <state width="1345" height="192" key="GridCell.Tab.0.right" timestamp="1651588873477">
+    <state width="1345" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1652212388442" />
+    <state width="1345" height="192" key="GridCell.Tab.0.right" timestamp="1652212388443">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1651588873477" />
+    <state width="1345" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1652212388443" />
     <state width="1345" height="238" key="GridCell.Tab.1.bottom" timestamp="1651484641847">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

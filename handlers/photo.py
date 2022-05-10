@@ -1,23 +1,24 @@
-from loader import dp
+
 from handlers.from_pic_get_text import main
 from handlers.translation import translation
 from aiogram.dispatcher.filters import Command
-from aiogram.types import Message
+from aiogram.types import Message, ReplyKeyboardRemove
 import pyttsx3
-from aiogram.types.base import InputFile
+
 from gtts import gTTS
 from loader import dp,bot
-from time import sleep
 
-# @dp.message_handler(Command('start'))
-# async def audio(message:Message):
 
-# await message.answer('textni kiriting')
 
+
+
+from keybord.default import button
 @dp.message_handler(Command("start"))
 async def start(message:Message):
-    await message.reply("rasm yuboring")
-
+    await message.reply("Kategoriyani tanlang",reply_markup=button)
+@dp.message_handler(text="Rasmdagi matnni o'zbek tiliga tarjima qilish")
+async def start(message:Message):
+    await message.reply("Rasm tashlang")
 @dp.message_handler(content_types=['photo'])
 async def handle_docs_photo(message):
 
@@ -36,3 +37,14 @@ async def handle_docs_photo(message):
     tts = gTTS(text=t, lang='ru')
     tts.save('file.mp3')
     await bot.send_audio(message.from_user.id, open('file.mp3', 'rb'))
+@dp.message_handler(text="Texni o'zbek tiliga tarjima qilish")
+async def start(message:Message):
+    await message.reply("Textni tashlang")
+
+
+@dp.message_handler()
+async def translate(message:Message):
+    text = message.text
+
+    t = translation(text)
+    await message.reply(t)
