@@ -7,7 +7,10 @@ button=ReplyKeyboardMarkup(
         ],
         [
             KeyboardButton(text="Texni o'zbek tiliga tarjima qilish")
-        ]
+        ],
+[
+            KeyboardButton(text="Texni auidoga ogirish")
+        ],
     ],
     resize_keyboard=True
 )

@@ -19,32 +19,41 @@ async def start(message:Message):
 @dp.message_handler(text="Rasmdagi matnni o'zbek tiliga tarjima qilish")
 async def start(message:Message):
     await message.reply("Rasm tashlang")
-@dp.message_handler(content_types=['photo'])
-async def handle_docs_photo(message):
+    @dp.message_handler(content_types=['photo'])
+    async def handle_docs_photo(message):
 
-    await message.photo[-1].download('pictranslate/test.jpg')
+        await message.photo[-1].download('pictranslate/test.jpg')
 
-    a=main()
-    t=translation(a[1:-1])
-    await message.reply(t)
+        a=main()
+        t=translation(a[1:-1])
+        await message.reply(t)
 
-    engine = pyttsx3.init()
 
-    print(type(t))
-    print(t)
-    engine.say(t)
-    print(t)
-    tts = gTTS(text=t, lang='ru')
-    tts.save('file.mp3')
-    await bot.send_audio(message.from_user.id, open('file.mp3', 'rb'))
 @dp.message_handler(text="Texni o'zbek tiliga tarjima qilish")
 async def start(message:Message):
     await message.reply("Textni tashlang")
 
 
-@dp.message_handler()
-async def translate(message:Message):
-    text = message.text
+    @dp.message_handler()
+    async def translate(message:Message):
+        text = message.text
 
-    t = translation(text)
-    await message.reply(t)
+        t = translation(text)
+        await message.reply(t)
+
+@dp.message_handler(text="Texni auidoga ogirish")
+async def audio_start(message:Message):
+    await message.reply("Textni tashlang")
+
+
+    @dp.message_handler(content_types='text')
+    async def auido(message:Message):
+        text=message.text
+        engine = pyttsx3.init()
+
+
+        engine.say(text)
+        print(text)
+        tts = gTTS(text=text, lang='ru')
+        tts.save('file.mp3')
+        await bot.send_audio(message.from_user.id, open('file.mp3', 'rb'))
